@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top{
+            border: 1px solid black;
+            background-image:linear-gradient(pink, yellow) ;
+            width: 300px;
+        }
+        button:hover~.photo{
+            color: pink;
+            background-color: green;
+            font-size: 100px;
+            padding:100px;
+        
+        }
+        .top2{
+            background-color: green;
+        }
+        button:hover~.photo1{
+            color: purple;
+            background-color:purple;
+            width: 100px;
+        }
+        .top3:active+.photo1{
+            display: block;
+            color: blue;
+            background-color: pink;
+
+        }
+        .top3{
+            background-color: purple;
+        }
+        .photo1{
+            display: none;
+        }
+        .top4:active~.image{
+            display: block;
+            background-color: blue;
+        }
+        .image{
+            display: none;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="top">
+    <h1 class="top1">content</h1>
+    <button class="top2">button1</button>
+    <div class="photo"><img src="../images/animal.avif"height="100" width="100" ></div>
+    <button class="top3">button2</button>
+    <img src="../images/Amazon-Prime-Video-Logo.png "class="photo1"  height="100" width="100">
+    <button class="top4">image</button>
+    <p class="image">today fhnhgjhkhdgjyhvjhguehwvdn sncbwudygffvhds cnsvuhsdgfyuhejsbvcn sxhjfsyhfd</p>
+    
+    </div>
+</body>
+</html
